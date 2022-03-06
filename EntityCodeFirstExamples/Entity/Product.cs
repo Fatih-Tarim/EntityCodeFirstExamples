@@ -15,5 +15,7 @@ namespace EntityCodeFirstExamples.Entity
         public string ProductBrand { get; set; }
         public string ProductCategory { get; set; }
         public int UnitStock { get; set; }
+        public string Description { get; set; }
+        public Category Category { get; set; }
     }
 }
